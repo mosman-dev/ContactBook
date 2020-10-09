@@ -201,6 +201,7 @@ img {
 	transition: all 0.3s ease-in-out;
 	border: 1px solid transparent;
 	box-shadow: 2px 2px 2px #ccc;
+	margin-bottom: 10px;
 }
 
 .btn-link {

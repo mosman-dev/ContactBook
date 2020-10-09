@@ -18,7 +18,6 @@ app.use('/api/contacts', require('./routes/contacts'));
 // Serve static assets in production
 if (process.env.NODE_ENV === 'production') {
 	// Set static folder
-
 	const root = require('path').join(__dirname, 'client', 'build');
 	app.use(express.static(root));
 	app.get('*', (req, res) => {
